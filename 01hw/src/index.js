@@ -1,11 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./App";
-import Heading from './Heading';
-import List from './List';
-import Text from './Text';
-import Webseries from "./Webseries";
+import App from "./components/App";
+import Heading from './components/Heading';
+import List from './components/List';
+import Text from './components/Text';
+import Webseries from "./components/Webseries";
+import Calsi from "./components/Calsi";
+
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -16,5 +18,6 @@ root.render(
     <Heading />
     <List />
     <Webseries />
+    <Calsi />
   </>
 );

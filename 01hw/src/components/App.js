@@ -3,7 +3,6 @@ import Heading from './Heading';
 import List from './List';
 import Text from './Text';
 
-
 function App() {
 
   const name = 'Utsav'
@@ -56,10 +55,6 @@ function App() {
   }
 
 
-
-
-
-
   return (
 
     <>
@@ -84,8 +79,7 @@ function App() {
           <li>Aarya</li>
         </ol>
       </div>
-
-      
+    
       <br/>
       <hr/>
       <br/>
@@ -99,7 +93,6 @@ function App() {
         <h1> Random number bwtween 1 to 100 = {Math.round(Math.random()*100 + 1)}</h1>
         <h2 style={{color:'red'}}>curly bracket ni andar khali expression work karse || koi condition or koi loop 'statemenmt' work nahi kare</h2>
       </div>
-
       
       <br/>
       <hr/>
@@ -111,7 +104,6 @@ function App() {
         <h2>2) My fav color is {fcolor +' & '+ lcolor}</h2>
         <h2> {` 3) using tempalate literal ${fcolor} |||| ${lcolor}`}</h2>
       </div>
-
 
       <br/>
       <hr/>
@@ -125,7 +117,6 @@ function App() {
       <p>re : {re} </p>
       <Heading />
       </div>
-
 
       <br/>
       <hr/>
@@ -154,7 +145,6 @@ function App() {
         <h1 className='name'> GOHIL UTSAV A</h1>
         <Heading />
       </div>
-
 
       <br/>
       <hr/>
@@ -186,15 +176,11 @@ function App() {
       <hr/>
       <br/>
 
-
     <div>
       <Text />
       <Heading />
       <List />
     </div>
-
-    
-
 
     </>
 

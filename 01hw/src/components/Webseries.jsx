@@ -11,7 +11,7 @@ function Webseries() {
 
   return (
     <>
-      <ol>
+      <ol  className='sub_main'>
         <li>{s1}</li>
         <li>{f1()}</li>
       </ol>
