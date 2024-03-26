@@ -1,0 +1,46 @@
+
+
+.name{
+  background-color: aquamarine;
+  text-align: center;
+  padding: 1rem;
+  color: antiquewhite;
+
+}
+.fonts{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.main{
+  background-color: aquamarine;
+  padding: 5rem;
+}
+
+.sub_main{
+  text-align: center;
+  background-color: rgb(173, 245, 245);
+  padding: 5rem;
+}
+.sub_main_2{
+  background-color: rgb(173, 245, 245);
+  padding: 3rem;
+  font-size:1.5rem;
+}
+.sub_main_3{
+  background-color: rgb(26, 246, 246);
+  padding: 3rem;
+}
+.chal{
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  padding: 2rem;
+}
+
+.hatt{
+  background-color: black;
+  padding: 2rem;
+}
+
+
