@@ -1,0 +1,36 @@
+.nav_text_netflix{
+    color: red;
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+.browse{
+    background-color: white !important;
+    border: none !important;
+    color: black !important;
+    text-align: left !important;
+}
+.genra_link{
+    text-decoration:none;
+    color: black;
+}
+.genra_link:hover{
+    color: red;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.img{
+    width: auto !important;
+    height: 17rem;
+}
+
+
+.cardindex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+    padding: 1rem;
+    margin-top: 1rem;
+    gap: 1rem;
+}
