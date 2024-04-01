@@ -4,7 +4,12 @@ import Events from "./Events";
 import Events2 from "./Events2";
 import Events3 from "./Events3";
 import Form1 from "./Form1";
-import Form2 from "./Form2";
+import Todo from "./Todo";
+import Todo1 from "./Todo1";
+import Materialui from "./Materialui";
+import Formdesign from "./Formdesign";
+import NewTodo from "./NewTodo";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const [number, setNumber] = useState(0);
@@ -81,8 +86,12 @@ function App() {
       <Events2 />
       <Events3 />
       <Form1 />
-      <Form2 />
-    </>
+      <Todo />
+      <Todo1 />
+      <Materialui /><br /><br /><br /><br />
+      <Formdesign /><br /><br /><br /><br />
+      <NewTodo /><br /><br /><br /><br />
+      </>
   );
 }
 

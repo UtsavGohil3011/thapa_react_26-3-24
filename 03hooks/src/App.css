@@ -175,3 +175,37 @@
   }
 }
 
+
+.headingoftodo{
+
+  text-align: center;
+  font-size: larger;
+  background-color: #333;
+}
+.headingoftodo2{
+
+  font-size: larger;
+  background-color: #333;
+  padding: 1rem;
+}
+.headingoftodo3{
+
+  font-size: larger;
+  background-color: #333;
+  padding: 1rem;
+}
+
+.under{
+  display: flex;
+  gap: 30px;
+}
+
+.wow{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
