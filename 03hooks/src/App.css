@@ -1,0 +1,177 @@
+.btn {
+  padding: 1rem !important;
+  border: 2px solid red !important;
+  background-color: brown !important;
+  width: 50% !important;
+}
+.btn2 {
+  padding: 1rem !important;
+  border: 2px solid red !important;
+  background-color: brown !important;
+  width: 25% !important;
+}
+.btn3 {
+  padding: 1rem !important;
+  border: 2px solid red !important;
+  background-color: brown !important;
+  width: 50% !important;
+}
+.main {
+  text-align: center;
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main2 {
+  text-align: center;
+  margin-top: 10%;
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column ; */
+  padding: 2%;
+}
+.main3 {
+  text-align: center;
+  margin-top: 10%;
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column ;
+  padding: 2%;
+}
+.mainclickme{
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainclickme2{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clickme{
+  padding: 2rem !important;
+  border-radius: 50%;
+  background-color: brown;
+}
+.clickme2{
+  padding: 2rem !important;
+  background-color: brown;
+  width: 100% !important;
+  font-size: larger;
+}
+.mainur{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.btnur{
+  padding: 3rem;
+  width: 70%;
+  background-color: purple;
+  color: black !important;
+  border: 40px solid white;
+}
+.mainForm{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 70vh;
+}
+.inputField{
+  padding: 2rem !important;
+  width: 70%;
+}
+.sub{
+  padding: 1rem !important;
+  width: 50% !important;
+  background-color: black;
+}
+
+/*  */
+/*  */
+
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navbar-brand a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.navbar-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navbar-links ul li {
+  margin: 0 10px;
+}
+
+.navbar-links ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-toggle {
+  display: none;
+  cursor: pointer;
+}
+
+.navbar-toggle span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    background-color: #333;
+    top: 60px;
+    left: 0;
+    transition: all 0.3s ease-in;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .navbar-links.active {
+    display: flex;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .navbar-toggle {
+    display: block;
+  }
+}
+

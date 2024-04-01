@@ -6,6 +6,7 @@ import Headingtop5 from "./Headingtop5";
 import Maincard from "./Maincard";
 import Carddata from "./Carddata";
 import { useState } from "react";
+import Game from "./Game";
 
 
 
@@ -42,6 +43,8 @@ function App() {
       <Headingtop5 />
 
       <Carosalutsav />
+
+      <Game />
     </>
   );
 }

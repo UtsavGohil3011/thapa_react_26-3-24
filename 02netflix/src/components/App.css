@@ -17,3 +17,13 @@
 
 }
 
+.head{
+    padding: 5rem !important;
+    text-align: center !important;
+    color: brown !important;
+    font-weight: 900 !important;
+}
+.head:hover{
+    color: aliceblue !important;
+}
+
