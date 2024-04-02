@@ -42,19 +42,13 @@ const Todo1 = () => {
         <input type='text' placeholder='Add a item' value={listItem} onChange={itemEvent} />
         <button onClick={addItem}>+</button>
         <ol className='headingoftodo3'>
-
-
             {Items.map((val,index) => {
                 return <div className='under'>  <li>{val}</li>  <button onClick={() => delItem(index)}>❌</button> </div>
-            })}
-
-            
-
+            })}            
         </ol>
     </div>
       
     </div>
   )
 }
-
 export default Todo1
