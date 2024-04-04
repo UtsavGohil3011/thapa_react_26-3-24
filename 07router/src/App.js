@@ -5,33 +5,27 @@ import Aboutus from './Aboutus';
 import Contactus from './Contactus';
 import Service from './Service';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap'
+import 'bootstrap/dist/js/bootstrap';
 import Navbar from './Navbar';
 import User from './User';
-
-
+import Search from './Search';
+import Error from './Error';
 
 function App() {
   return (
     <>
-
-      {/* <Home />
-      <Aboutus />
-      <Contactus />
-      <Service /> */}
-      
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<Aboutus/>}/>
         <Route path='/contact' element={<Contactus/>}/>
         <Route path='/service' element={<Service/>}/>
-        <Route path='/user/:name/:name2' element={<User/>}/>
+        <Route path='/user/:name' element={<User/>}/>
+        <Route path='*' element={<Error/>}/> {/* This is the corrected route */}
+      
       </Routes>
-     
-
+      <Search />
     </>
-
   );
 }
 
